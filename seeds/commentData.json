@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Great post! This really helped me understand MVC better.",
+    "post_id": 1
+  },
+  {
+    "content": "Thanks for explaining the difference so clearly!",
+    "post_id": 2
+  },
+  {
+    "content": "ORMs are definitely a game changer!",
+    "post_id": 3
+  }
+] 

@@ -1,0 +1,52 @@
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login-form">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="signup-tab" data-bs-toggle="tab" href="#signup-form">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="login-form">
+                        <form class="login-form">
+                            <div class="mb-3">
+                                <label for="email-login" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email-login">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password-login" class="form-label">Password:</label>
+                                <input type="password" class="form-control" id="password-login">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="signup-form">
+                        <form class="signup-form">
+                            <div class="mb-3">
+                                <label for="username-signup" class="form-label">Username:</label>
+                                <input type="text" class="form-control" id="username-signup">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email-signup" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email-signup">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password-signup" class="form-label">Password:</label>
+                                <input type="password" class="form-control" id="password-signup">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/login.js"></script> 
